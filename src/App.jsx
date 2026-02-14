@@ -341,6 +341,18 @@ export default function App() {
             </p>
           </div>
 
+          {/* YouTube Link */}
+          <div className="mb-5 sm:mb-6 text-center">
+            <a
+              href="https://www.youtube.com/@TabahiOnTheBeat"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm sm:text-base text-[#ff4b8b] hover:text-[#ff5e89] font-semibold underline transition-colors duration-200"
+            >
+              Go and check out my Youtube
+            </a>
+          </div>
+
           <button
             onClick={resetForm}
             style={{
@@ -527,6 +539,8 @@ export default function App() {
                 <p className="text-xs sm:text-sm text-[#ff4b8b] mt-2 font-bold text-right">
                   {getDesperationText(formData.desperationLevel)}
                 </p>
+
+
               </div>
 
               {/* Button */}
