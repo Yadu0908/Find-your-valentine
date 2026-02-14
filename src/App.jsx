@@ -349,7 +349,7 @@ export default function App() {
               rel="noopener noreferrer"
               className="text-sm sm:text-base text-[#ff4b8b] hover:text-[#ff5e89] font-semibold underline transition-colors duration-200"
             >
-              Go and check out my Youtube
+              Go and check out my latest songs !!!
             </a>
           </div>
 
